@@ -1,0 +1,12 @@
+const prompt = require(`prompt-sync`)({sigint:true})
+let x = Number(prompt(`Nilai x : `))
+let y = Number(prompt(`Nilai y : `))
+let z = Number(prompt(`Nilai z : `))
+if (x > y && z)
+    console.log(`Nilai terbesar adalah X`)
+else if (y > x && z)
+    console.log(`Nilai terbesar adalah Y`)
+else if (z > x && y)
+    console.log(`Nilai terbesar adalah Z`)
+else
+    console.log(`Ketiganya Memiliki Nilai Sama Besar`)
