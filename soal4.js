@@ -1,6 +1,5 @@
-const prompt = require(`prompt-sync`)({sigint:true})
-const angka1 = 80.87
-const angka2 = 8.97
+let angka1 = 80.87
+let angka2 = 8.97
 console.log(`
 Angka 1 = ${angka1}
 Angka 2 = ${angka2}

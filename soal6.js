@@ -1,4 +1,3 @@
-const prompt = require(`prompt-sync`)({sigint:true})
 let namaSiswa = `Ricardo Kaka`
 let ukuranSepatu = 43
 let rataRapor = 95
